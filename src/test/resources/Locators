@@ -1,0 +1,55 @@
+          Locators
+  1) Логотип:
+     а. By.className("login_logo");
+     b. By.cssSelector(".login_logo");
+     c. By.xpath("//div[@class='login_logo']");
+  2) Робот:
+     а. By.className("bot_column");
+     b. By.cssSelector(".bot_column");
+     c. By.xpath("//div[@class='bot_column']");
+  3) Username:
+     a. By.id("user-name");
+     b. By.cssSelector("[placeholder='Username']");
+     c. By.xpath("//input[@placeholder='Username']");
+  4) Password:
+     a. By.id("password");
+     b. By.cssSelector("#password");
+     c. By.xpath("//input[@placeholder='Password']");
+  5) LOGIN:
+     а. By.className("btn_action");
+     b. By.cssSelector(".btn_action");
+     c. By.xpath("//input[@class='btn_action']");
+  6) Строка “Accepted usernames are”:
+     a. By.cssSelector(".login_credentials > h4");
+     b. By.xpath("//*[@id='login_credentials']/h4");
+  7) Строка “Password for all users”:
+     a. By.cssSelector(".login_password > h4");
+     b. By.xpath("//*[@class='login_password']/h4");
+  8) Меню:
+     a. By.cssSelector(".bm-burger-button > button");
+     b. By.xpath("//*/div[@class='bm-burger-button']/button");
+  9) Корзина:
+     a. By.cssSelector(".svg-inline--fa > path");
+     b. By.xpath("//*[@id='shopping_cart_container']/a/svg/path");
+  10) Сортировка:
+     а. By.className("product_sort_container");
+     b. By.cssSelector(".product_sort_container");
+     c. By.xpath("//*/select[@class='product_sort_container']");
+  11) Backpack:
+     b. By.cssSelector("#item_4_img_link >img");
+     c. By.xpath("//*[@id='item_4_img_link']/img");
+  12) Bike Light:
+     b. By.cssSelector("#item_0_img_link > img");
+     c. By.xpath("//*[@id='item_0_img_link']/img");
+  13) Bolt T-Shirt:
+     b. By.cssSelector("#item_1_img_link > img");
+     c. By.xpath("//*[@id='item_1_img_link']/img");
+  14) Fleece Jacket:
+     b. By.cssSelector("#item_5_img_link > img");
+     c. By.xpath("//*[@id='item_5_img_link']/img");
+  15) Onesie:
+     b. By.cssSelector("#item_2_img_link > img");
+     c. By.xpath("//*[@id='item_2_img_link']/img");
+  16) T-Shirt (Red):
+     b. By.cssSelector("#item_3_img_link > img");
+     c. By.xpath("//*[@id='item_3_img_link']/img");
