@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lida Belukhina QA05</title>
+    <style>
+        table, th, td {
+         border: 1px solid black;
+         border-collapse: collapse;
+         }
+        .button {
+        color: white;
+        padding: 8px 16px;
+        }
+        .button_1 {
+         background-color:#4CAF50;
+        }
+        .button_2 {
+         background-color: #008CBA;
+        }
+    </style>
+</head>
+<body>
+<h2>Table</h2>
+<table>
+    <tr style="width:100%">
+        <th> First name </th>
+        <th> Last name </th>
+        <th> Age </th>
+    </tr>
+    <tr>
+        <td>Nastya</td>
+        <td>Kazartseva</td>
+        <td>23</td>
+    </tr>
+    <tr>
+        <td>Anna</td>
+        <td>Afonina</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>Danik</td>
+        <td>Socolov</td>
+        <td>25</td>
+    </tr>
+</table>
+
+<h2>Text Field</h2>
+    <form action="/action_page.php">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname"><br><br>
+    <input type="submit" value="Sing up">
+</form>
+
+<h2>Input type checkbox</h2>
+    <p>What is "Aurum"?</p>
+        <form action="/action_page.php">
+    <input type="checkbox" id="vehicle_1" name="vehicle_1" value="Silver">
+    <label for="vehicle_1">It's silver</label><br>
+    <input type="checkbox" id="vehicle_2" name="vehicle_2" value="Gold">
+    <label for="vehicle_2">It's gold</label><br>
+    <input type="checkbox" id="vehicle_3" name="vehicle_3" value="Copper">
+    <label for="vehicle_3">It's copper</label><br><br>
+    <input type="submit" value="Check">
+</form>
+
+<h2>The select element</h2>
+    <form action="/action_page.php">
+    <label for="city">Select city:</label>
+    <select name="city" id="city">
+        <option value="minsk">Minsk</option>
+        <option value="vitebsk">Vitebsk</option>
+        <option value="mogilev">Mogilev</option>
+        <option value="gomel">Gomel</option>
+        <option value="brest">Brest</option>
+        <option value="grodno">Grodno</option>
+    </select>
+    <br><br>
+    <input type="submit" value="Submit">
+</form>
+
+<h2>The button element</h2>
+    <button class="button button_1" style="font-size:100%">Sign in</button>
+    <button class="button button_2">Reset</button>
+
+<h2>Images</h2>
+    <p>Smiley face in the middle of the text! <img src="https://cdn.humoraf.ru/wp-content/uploads/2018/06/smajliki-kartinki-smeshnye-85.jpg" alt="Фото" title="Smiley" width="40" height="40"  style="vertical-align:middle"> Smiley face in the middle of the text!</p>
+
+<h2 style="text-align:center;">Sherlock Holmes - The Sign Of Four</h2>
+    <p>For many years, I shared an apartment in London with my friend, Sherlock Holmes.</p>
+    <p style="font-family:courier;">My name is Doctor Watson.
+    I worked as a doctor in the British Army for several years.
+    While I was in the army, I travelled to many strange and interesting places.
+    I had many exciting adventures.</p>
+    <p style="color: brown">Then one day, in Afghanistan, I was shot in the shoulder.
+    My wound was deep and took many months to heal.
+    I nearly died from pain and fever.
+    At last I got better, but I could not work in the army any more.
+    I retired from the army and came back to England.</p>
+
+<h2>Links</h2>
+   <p>
+       Links:
+       <a href="https://www.google.com/webhp?hl=ru&sa=X&ved=0ahUKEwjgqI2b_4PqAhUbwMQBHRYmDIAQPAgH" target="_blank">
+           <img border="0" alt="Google" src="https://media.lpgenerator.ru/uploads/2019/07/11/1_thumb600x460.jpg" title="Google" width="50" height="40"  style="vertical-align:middle">
+       </a>
+   </p>
+</body>
+</html>
